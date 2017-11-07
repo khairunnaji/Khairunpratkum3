@@ -13,5 +13,7 @@ int main () {
 		
 			else if (nilai<0)
 		cout<<"Nilai Negatif";
+	else
+		cout<<"Nilai 0";
 }
 
