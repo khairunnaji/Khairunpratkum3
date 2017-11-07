@@ -7,6 +7,7 @@ int main () {
  cout << "Masukkan tinggi badan dalam cm : ";
  cin >> tinggi;
  
+ 
  cout << "Masukkan berat badan dalam kg : ";
  cin >> berat;
  
@@ -16,4 +17,6 @@ int main () {
  else if  (tinggi/2.5 <= berat <= tinggi/2.3) {
   cout <<  "Hasil : Normal" << endl; 
 }
+ else if (tinggi/2.3 < berat)
+  cout << "Hasil : Gemuk" << endl;
 }
